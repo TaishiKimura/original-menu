@@ -1,0 +1,105 @@
+
+body{
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    background-image:url(../img/backimage.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    position: relative; 
+}
+
+.inst{
+    /* background-color: #fff; */
+    position: absolute; /* 追加 */
+    top: 20px; /* 上からの位置調整 */
+    right: 20px; /* 右からの位置調整 */
+}
+
+.container1{
+    width: 80%;
+    height: 80%;
+    overflow: auto;
+    background-color: #D7AB69;
+    padding-top: 30px;
+    
+}
+
+.text {
+    text-align: center; /* テキストを中央揃えにする */
+    padding: 15px;
+}
+
+.text > ul {
+    list-style: none; /* リストのデフォルトのマーカーを削除 */
+    padding: 0; /* リストのデフォルトのパディングを削除 */
+    text-align: center; /* リストを中央揃えにする */
+}
+
+.text > ul > li {
+    display: inline-block; /* リストアイテムをブロックレベル要素として表示 */
+    margin: 0 10px; /* リストアイテム間の余白を設定 */
+}
+
+
+.header-custom{
+    background-color: #0A0C21;
+}
+
+.introduction{
+    background-color: #0A0C21;
+}
+
+/* .introduction2{
+    background-color: white;
+    margin: 20px;
+    border-radius: 30px;
+    overflow-y: auto;
+} */
+
+.introduction-comment{
+    color: white;
+    line-height: 2.5;
+}
+
+.ingredients{
+    font-size: 11px;
+    margin-bottom: -2px;
+}
+
+.english-introduction{
+    color: #fff;
+    line-height: 2.5;  
+}
+
+.ingredients-english{
+    color: black;
+    font-size: 10px;
+    margin-bottom: 5px;
+}
+
+.yen{
+    font-size: 13px;
+}
+
+.container2{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    /* margin-left: 40px; */
+}
+
+
+/* .other-drink{
+    text-align: center;
+}
+
+.price{
+    text-align: center;
+    display: contents;
+} */
+    
+.price2{
+    line-height: 2.4em; /* 行の高さを調整 */
+}
